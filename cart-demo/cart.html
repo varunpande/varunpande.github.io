@@ -1,0 +1,70 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<script src="javascript.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<table>
+  <tr>
+    <th>Class Timing</th>
+    <th>Price</th>
+    <th>Purchase</th>
+    <th>Call back</th>
+    <th>List</th>
+  </tr>
+  <tr>
+    <td>7 AM-1 PM (3 Days a Week)</td>
+    <td>Rs.12000/-</td>
+    <td>1000/- rs off</td>
+   <td>call back</td>
+    <td><button type="button" class="btn btn-primary" onclick="shortlist('raoiit,7 AM-1 PM (3 Days a Week),Rs.12000/-,1000/-')">add to cart</button></td>
+  </tr>
+  <tr>
+    <td>7 AM-1 PM (3 Days a Week)</td>
+    <td>Rs.120000/-</td>
+    <td>10000/- rs off</td>
+   <td>call back</td>
+    <td><button type="button" class="btn btn-primary" onclick="shortlist('BIT-IIT,8 AM-1 PM (3 Days a Week),Rs.120000/-,10000/-')">add to cart</button></td>
+  </tr>
+</table>
+<div id="fab" onclick="fabfunction()" data-toggle="modal" data-target="#myModal">
+<span id="carticon" class="glyphicon glyphicon-education btn-bg"></span>
+ 
+</div> 
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Short listed Classes</h4>
+      </div>
+      <div class="modal-body">
+       <table id="shortlist">
+  <tr>
+    <th>Class Timing</th>
+    <th>Price</th>
+    <th>purchase</th>
+    <th>Call back</th>
+    <th>remove</th>
+  </tr>
+  <tr>
+    <td>7 AM-1 PM (3 Days a Week)</td>
+    <td>Rs.12000/-</td>
+    <td>1000/- rs off</td>
+    <td>Request a Callback</td>
+  </tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
