@@ -1,0 +1,12 @@
+# The goal of this assignment is to learn about the kNN.
+- We will use IRIS dataset. https://archive.ics.uci.edu/ml/datasets/Iris
+- Divide the dataset as development and test. Because kNN does not require training you don’t have a train dataset. Make sure to randomly divide the dataset.
+- Implement kNN using the following hyperparameters
+  - Number of neighbor K = 1,3,5,7
+  - distance metric = euclidean distance, normalized euclidean distance, cosine similarity
+- Using the development dataset:
+  - Calculate accuracy by iterating all of the development data point
+  - Find optimal hyperparameters
+    - Draw bar charts for accuracy
+- Using the test dataset
+  - Use the optimal hyperparameters you found in the step c, and use it to calculate the final accuracy.
