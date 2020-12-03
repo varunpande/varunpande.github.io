@@ -18,4 +18,4 @@
 - Using the test dataset, Use the optimal hyperparameters you found in the step e, and use it to calculate the final accuracy.  
 - Use five fold cross validation for final accuracy.
 
-** unzip the Data folder at same level as the notebook
+** For Data set create a folder named Data and paste the reviews from the original data set folder into the neg and pos files respectively
