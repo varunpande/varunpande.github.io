@@ -17,3 +17,5 @@
 - Derive Top 10 words that predicts positive and negative class P[Positive| word] 
 - Using the test dataset, Use the optimal hyperparameters you found in the step e, and use it to calculate the final accuracy.  
 - Use five fold cross validation for final accuracy.
+
+** unzip the Data folder at same level as the notebook
