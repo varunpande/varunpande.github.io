@@ -3,13 +3,24 @@
   - The goal is given a review, predict the rating for the review.
 
 # Youtube video advertising my app:
-  -
+  - kk
 
 # Link to my Blog:
- - https://vptech94.blogspot.com/2020/12/game-review-rating-bot.html
+  - https://vptech94.blogspot.com/2020/12/game-review-rating-bot.html
 
-# Test out the model:
-### Checkout my model at: http://varunpyanywhr.pythonanywhere.com 
-
+# I have hosted my model on python anywhere so do checkout my model at:
+  - http://varunpyanywhr.pythonanywhere.com
+  
 # Steps to run the project:
- 1. Download the Jupyter Notebook
+  - 1. Download the Jupyter Notebook.
+  - 2. Install the libraries.
+      - pandas
+      - numpy
+      - pickle
+      - mpl_toolkits
+      - sklearn
+      - matplotlib
+      - nltk
+  - 3. Download the dataset.
+  - 4. Run the Notebook.
+##### (*Some steps take really long to execute so please be patient.)
