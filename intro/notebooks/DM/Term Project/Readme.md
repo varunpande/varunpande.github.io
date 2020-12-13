@@ -3,7 +3,7 @@
   - The goal is given a review, predict the rating for the review.
 
 # Youtube video advertising my app:
-  - kk
+  - https://youtu.be/I5lXQ9FcO58
 
 # Link to my Blog:
   - https://vptech94.blogspot.com/2020/12/game-review-rating-bot.html
